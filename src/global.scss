@@ -24,3 +24,28 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+  --ion-background-color: radial-gradient(circle farthest-corner at bottom left, #d9ded8 0%, #ebc0fd 100%);
+}
+
+@font-face {
+  font-family: NahumGothicRegular;
+  src: url('./assets/fonts/NanumGothic/NanumGothic-Regular.ttf');
+}
+
+@font-face {
+  font-family: DancingScriptBold;
+  src: url('./assets/fonts/DancingScript/DancingScript-Bold.ttf');
+}
+
+#content {
+  font-family: NahumGothicRegular;
+}
+
+#title {
+  font-family: DancingScriptBold;
+  h1 {
+    font-size: 2rem;
+  }
+}
