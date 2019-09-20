@@ -1,14 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header id="title">
+  <h1>Quotes</h1>
 </ion-header>
-
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content id="content">
+  <div class="container flex-column-center">
+    <div class="components-div flex-column-center">
+      <app-quotes></app-quotes>
+      <app-quotes></app-quotes>
+      <app-quotes></app-quotes>
+      <app-quotes></app-quotes>
+      <app-quotes></app-quotes>
+    </div>
+    <app-form></app-form>
   </div>
 </ion-content>

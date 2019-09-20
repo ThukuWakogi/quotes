@@ -1,1 +1,19 @@
+ion-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: DancingScriptBold;
+  &::after {
+    background: none;
+  }
+}
 
+app-quotes {
+  width: 80%;
+}
+
+.components-div {
+  margin-bottom: 70px;
+}

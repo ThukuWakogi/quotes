@@ -1,3 +1,38 @@
-<p>
-  form works!
-</p>
+<ion-fab horizontal="end" vertical="bottom" slot="fixed" [activated]="isFabListOpen">
+  <ion-fab-button color="light" (click)="toggleFab()">
+    <ion-icon name="arrow-dropleft"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top" [hidden]="isFabListOpen">
+    <!-- <ion-fab-button color="light">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="light">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="light">
+      <ion-icon name="logo-vimeo"></ion-icon>
+    </ion-fab-button> -->
+    <form action="">
+      <ion-item>
+        <ion-label>quote</ion-label>
+        <ion-input type="text" placeholder="Awesome Input"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>author</ion-label>
+        <ion-input type="text" placeholder="Awesome Input"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>author</ion-label>
+        <ion-input type="text" placeholder="Awesome Input"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>day</ion-label>
+        <ion-datetime displayFormat="DD MM YY" placeholder="Leave empty to select today"></ion-datetime>
+      </ion-item>
+      <ion-button>
+        Save
+      </ion-button>
+    </form>
+  </ion-fab-list>
+</ion-fab>
+
