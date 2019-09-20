@@ -2,12 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { QuotesComponent } from './quotes/quotes.component';
+import { IonicModule } from '@ionic/angular';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 
 @NgModule({
-  declarations: [QuotesComponent],
+  declarations: [QuotesComponent, QuoteDetailsComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ],
-  exports: [QuotesComponent]
+  exports: [QuotesComponent, QuoteDetailsComponent]
 })
 export class ComponentsModule { }
