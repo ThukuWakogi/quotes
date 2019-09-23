@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569223454005,
+  "timestamp": 1569225234580,
   "index": "https://ThukuWakogi.github.io/quotes/index.html",
   "assetGroups": [
     {
@@ -9,8 +9,8 @@
       "updateMode": "prefetch",
       "urls": [
         "https://ThukuWakogi.github.io/quotes/1-es5.96fc754b59e10fcd9fb0.js",
-        "https://ThukuWakogi.github.io/quotes/12-es5.eadf3e462fbca3138426.js",
-        "https://ThukuWakogi.github.io/quotes/13-es2015.cb86d6a618993320a7ee.js",
+        "https://ThukuWakogi.github.io/quotes/12-es5.76c8f600d8d43fc75d54.js",
+        "https://ThukuWakogi.github.io/quotes/13-es2015.581da04920f6b87a2759.js",
         "https://ThukuWakogi.github.io/quotes/13-es5.38ca92bd55c8ad0bc0ad.js",
         "https://ThukuWakogi.github.io/quotes/14-es2015.e0ba46bb2dcb815a6107.js",
         "https://ThukuWakogi.github.io/quotes/14-es5.600751699746a94d30ea.js",
@@ -205,8 +205,8 @@
         "https://ThukuWakogi.github.io/quotes/main-es5.5c4c06008fd0c62cd7e2.js",
         "https://ThukuWakogi.github.io/quotes/polyfills-es2015.9dc249691db5a784f360.js",
         "https://ThukuWakogi.github.io/quotes/polyfills-es5.e5e6b51f90af1942e3a6.js",
-        "https://ThukuWakogi.github.io/quotes/runtime-es2015.d47dcc972a4b672229f3.js",
-        "https://ThukuWakogi.github.io/quotes/runtime-es5.bf79066fa31e8195f139.js",
+        "https://ThukuWakogi.github.io/quotes/runtime-es2015.9d0b6261da2b42d953fd.js",
+        "https://ThukuWakogi.github.io/quotes/runtime-es5.cab636585bf1205b3521.js",
         "https://ThukuWakogi.github.io/quotes/styles.379404aa54649a58a173.css"
       ],
       "patterns": []
@@ -242,8 +242,8 @@
   "dataGroups": [],
   "hashTable": {
     "https://ThukuWakogi.github.io/quotes/1-es5.96fc754b59e10fcd9fb0.js": "4fe1ddd5675085dcbf21efab9327cbf5deadf320",
-    "https://ThukuWakogi.github.io/quotes/12-es5.eadf3e462fbca3138426.js": "4ca617cea407b38e22e79ee4364ed68420b616df",
-    "https://ThukuWakogi.github.io/quotes/13-es2015.cb86d6a618993320a7ee.js": "fd99a90dc154f82d26fd23db6450c1253681054d",
+    "https://ThukuWakogi.github.io/quotes/12-es5.76c8f600d8d43fc75d54.js": "1a7f120a225ff53a5f99fb208dae288203abbe70",
+    "https://ThukuWakogi.github.io/quotes/13-es2015.581da04920f6b87a2759.js": "77fcd076083dc22c0a65aa1e064fcd3f6718f4e8",
     "https://ThukuWakogi.github.io/quotes/13-es5.38ca92bd55c8ad0bc0ad.js": "cee391682f0fbb53204c79cd79513ae7d56666f3",
     "https://ThukuWakogi.github.io/quotes/14-es2015.e0ba46bb2dcb815a6107.js": "4cb6367ecce815998b147d9f84baec2f75732755",
     "https://ThukuWakogi.github.io/quotes/14-es5.600751699746a94d30ea.js": "d80209032864b4b63307dc0ce0f3738ccb36e539",
@@ -452,13 +452,13 @@
     "https://ThukuWakogi.github.io/quotes/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "https://ThukuWakogi.github.io/quotes/common-es2015.1129fa32e8c0900d8ea3.js": "900e29ab7979785d117c74a219f5468876a12342",
     "https://ThukuWakogi.github.io/quotes/common-es5.b21f7241fa2f188d4759.js": "ae4289d4215a4c702c178bebef6ca61f8a32161c",
-    "https://ThukuWakogi.github.io/quotes/index.html": "f4a80dd2a4c299b91f2b603260ea2e571512e835",
+    "https://ThukuWakogi.github.io/quotes/index.html": "0930c8a63cd77c31e0002d83963f82e27a4d3da2",
     "https://ThukuWakogi.github.io/quotes/main-es2015.54890b8332d6f105b6d9.js": "7089e85a57eb249bd599d6a04584620b250f40d9",
     "https://ThukuWakogi.github.io/quotes/main-es5.5c4c06008fd0c62cd7e2.js": "f09c239135fc1d42a9472034ff7d9b6af4d264a2",
     "https://ThukuWakogi.github.io/quotes/polyfills-es2015.9dc249691db5a784f360.js": "7fc26158a2fd7f9d37ce975a9a2e47aa9370af1c",
     "https://ThukuWakogi.github.io/quotes/polyfills-es5.e5e6b51f90af1942e3a6.js": "0e735e556832b3e3b03d6baaefd1e7df969e2089",
-    "https://ThukuWakogi.github.io/quotes/runtime-es2015.d47dcc972a4b672229f3.js": "8f133bcc13c36300b6375ffab0e17cd79ec6a29c",
-    "https://ThukuWakogi.github.io/quotes/runtime-es5.bf79066fa31e8195f139.js": "2e5acdab3020190d902b7990730e12a111b9c3e3",
+    "https://ThukuWakogi.github.io/quotes/runtime-es2015.9d0b6261da2b42d953fd.js": "3b950b0471313ef6cc19408261a475fa7ba3b0ae",
+    "https://ThukuWakogi.github.io/quotes/runtime-es5.cab636585bf1205b3521.js": "14149668362e5c713e84adbb5ef4a440a2ce37b4",
     "https://ThukuWakogi.github.io/quotes/styles.379404aa54649a58a173.css": "a9e293e6e24c55ed45e2bca82f137d7086239139"
   },
   "navigationUrls": [
