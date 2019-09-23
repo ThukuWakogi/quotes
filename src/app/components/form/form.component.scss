@@ -62,29 +62,29 @@
   display: none;
 }
 
-#your-id:checked~.button-trigger>.material-icons {
+#your-id:checked ~ .button-trigger>.material-icons {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-#your-id:checked~.button-option:nth-of-type(1) {
+#your-id:checked ~ .button-option:nth-of-type(1) {
   transform: translate(-50%, -560%);
   opacity: 1;
   pointer-events: auto;
 }
 
-#your-id:checked~.button-option:nth-of-type(2) {
+#your-id:checked ~ .button-option:nth-of-type(2) {
   transform: translate(-50%, -440%);
   opacity: 1;
   pointer-events: auto;
 }
 
-#your-id:checked~.button-option:nth-of-type(3) {
+#your-id:checked ~ .button-option:nth-of-type(3) {
   transform: translate(-50%, -320%);
   opacity: 1;
   pointer-events: auto;
 }
 
-#your-id:checked~.button-option:nth-of-type(4) {
+#your-id:checked ~ .button-option:nth-of-type(4) {
   transform: translate(-50%, -200%);
   opacity: 1;
   pointer-events: auto;
