@@ -1,4 +1,4 @@
-<form action="">
+<form #quoteForm (onsubmit)="onSubmit()">
   <div class="wrapper">
     <div class="button">
       <input type="checkbox" id="your-id" name="button-checkbox">
@@ -8,23 +8,49 @@
         <div class="button-option">
         <ion-item class="light-gray">
           <ion-label>quote</ion-label>
-          <ion-input type="text" placeholder="Awesome Input"></ion-input>
+          <ion-input
+            type="text"
+            required
+            id="quote"
+            [(ngModel)]="newQuote.quote"
+            name="quote"
+            #quote
+          ></ion-input>
         </ion-item>
       </div>
       <div class="button-option">
         <ion-item class="light-gray">
           <ion-label>author</ion-label>
-          <ion-input type="text" placeholder="Awesome Input"></ion-input>
+          <ion-input
+            type="text"
+            required
+            id="author"
+            [(ngModel)]="newQuote.author"
+            name="author"
+            #author
+          ></ion-input>
         </ion-item>
       </div>
       <div class="button-option">
         <ion-item class="light-gray">
           <ion-label>day</ion-label>
-          <ion-input type="date"></ion-input>
+          <ion-input
+            type="date"
+            required
+            id="date"
+            [(ngModel)]="newQuote.date"
+            name="date"
+            #date
+          ></ion-input>
         </ion-item>
       </div>
       <div class="button-option">
-        <ion-item style="text-align: center" class="blue-theme" disabled>
+        <ion-item
+          style="text-align: center"
+          class="blue-theme"
+          [disabled]="newQuote.quote.trim() === '' || newQuote.author.trim() === '' || isDateValid()"
+          (click)="onSubmit()"
+        >
           <ion-input type="submit"></ion-input>
         </ion-item>
       </div>

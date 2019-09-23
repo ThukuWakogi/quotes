@@ -1,5 +1,8 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { NavController, IonFab } from '@ionic/angular'
+import { Component, OnInit } from '@angular/core'
+
+import { Quote } from 'src/app/models/quote/quote'
+import { QuotesService } from 'src/app/services/quote/quotes.service'
+import { isValid } from 'date-fns'
 
 @Component({
   selector: 'app-form',
@@ -7,15 +10,19 @@ import { NavController, IonFab } from '@ionic/angular'
   styleUrls: ['./form.component.scss'],
 })
 export class FormComponent implements OnInit {
-  isFabListOpen = false
+  newQuote = new Quote('', '', null)
 
-  toggleFab(): void {
-    this.isFabListOpen = !this.isFabListOpen
-    console.log('lol')
-  }
-
-  constructor() {}
+  constructor(private quotesService: QuotesService) {}
 
   ngOnInit() {}
 
+  onSubmit() {
+    console.log('submitting')
+    this.quotesService.addQuote(this.newQuote)
+    this.newQuote = new Quote('', '', null)
+  }
+
+  isDateValid(): boolean {
+    return isValid(this.newQuote.date)
+  }
 }
