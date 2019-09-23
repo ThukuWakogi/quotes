@@ -1,9 +1,11 @@
 export class Quote {
+  public likeCount = 0
+  public dislikeCount = 0
+
   constructor(
     public quote: string,
     public author: string,
-    public likeCount: number = 0,
-    public dislikeCount: number = 0,
+    public date: Date
   ) {}
 
   getLikeCount = () => this.likeCount - this.dislikeCount

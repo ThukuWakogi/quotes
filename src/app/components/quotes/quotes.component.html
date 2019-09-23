@@ -1,9 +1,3 @@
-<ion-card>
-  <ion-item class="item">
-    <app-quote></app-quote>
-    <app-quote></app-quote>
-    <app-quote></app-quote>
-    <app-quote></app-quote>
-    <app-quote></app-quote>
-  </ion-item>
-</ion-card>
+<div *ngFor="let quote of quotes; let i = index">
+  <app-quote [quote]="quote" [quoteIndex]="i"></app-quote>
+</div>

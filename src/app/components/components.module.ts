@@ -6,12 +6,14 @@ import { IonicModule } from '@ionic/angular';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { FormComponent } from './form/form.component';
 import { QuoteComponent } from './quote/quote.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [QuotesComponent, QuoteDetailsComponent, FormComponent, QuoteComponent],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    FormsModule
   ],
   exports: [QuotesComponent, QuoteDetailsComponent, FormComponent, QuoteComponent]
 })

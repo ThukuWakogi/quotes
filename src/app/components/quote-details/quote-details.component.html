@@ -1,17 +1,17 @@
 <div class="detail-content">
-  <p>~ That person holding some thick purple potion, 2017</p>
+  <p>~ {{ quote.author }}, {{ quote.date.getFullYear() }}</p>
   <div>
-    <ion-button fill="clear">
+    <ion-button fill="clear" (click)="onLike()">
       <ion-icon slot="icon-only" name="thumbs-up"></ion-icon>
     </ion-button>
-    <p>16</p>
-    <ion-button fill="clear">
+    <p>{{ quote.likeCount }}</p>
+    <ion-button fill="clear" (click)="onDislike()">
       <ion-icon slot="icon-only" name="thumbs-down"></ion-icon>
     </ion-button>
-    <p>16</p>
+    <p>{{ quote.dislikeCount }}</p>
     <div class="grow"></div>
-    <p>this days ago</p>
-    <ion-button fill="clear" color="danger">
+    <p>{{ getDays() }} ago</p>
+    <ion-button fill="clear" color="danger" (click)="onDelete()">
       <ion-icon slot="icon-only" name="trash"></ion-icon>
     </ion-button>
   </div>
