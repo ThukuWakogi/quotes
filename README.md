@@ -11,7 +11,7 @@ Author: Oliver Timothy
 
 ## running the application
 - Run `ng serve` or `ionic serve`
-- `ng serve` will host the app on port 3000 while `ionic serve` will host the app on port 8100
+- `ng serve` will host the app on port 4200 while `ionic serve` will host the app on port 8100
 
 you can also click [here](https://thukuwakogi.github.io/quotes/) to view a live demo
 
