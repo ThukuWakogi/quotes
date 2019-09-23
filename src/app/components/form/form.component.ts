@@ -17,9 +17,9 @@ export class FormComponent implements OnInit {
   ngOnInit() {}
 
   onSubmit() {
-    console.log('submitting')
+    console.log('this.newQuote', this.newQuote)
     this.quotesService.addQuote(this.newQuote)
-    this.newQuote = new Quote('', '', null)
+    // this.newQuote = new Quote('', '', null)
   }
 
   isDateValid(): boolean {

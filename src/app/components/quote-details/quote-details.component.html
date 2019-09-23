@@ -1,5 +1,5 @@
 <div class="detail-content">
-  <p>~ {{ quote.author }}, {{ quote.date.getFullYear() }}</p>
+  <p>~ {{ quote.author }}, {{ getYear() }}</p>
   <div>
     <ion-button fill="clear" (click)="onLike()">
       <ion-icon slot="icon-only" name="thumbs-up"></ion-icon>

@@ -18,8 +18,9 @@ export class QuoteDetailsComponent implements OnInit {
   ngOnInit() {}
 
   getDays(): string {
+    console.log('this.quote.date', this.quote.date)
     return formatDistanceStrict(
-      this.quote.date,
+      new Date(this.quote.date),
       new Date(),
       { unit: 'day' }
     )
@@ -30,4 +31,6 @@ export class QuoteDetailsComponent implements OnInit {
   onDislike(): void {this.quotesService.addDislike(this.quoteIndex)}
 
   onDelete(): void {this.quotesService.deleteQuote(this.quoteIndex)}
+
+  getYear(): any {return new Date(this.quote.date).getFullYear()}
 }
